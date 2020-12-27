@@ -1,4 +1,5 @@
-// I am just too tired to look at the codes now...maybe later
+// I am just too tired to look at the codes now...maybe tomorrow
+// But this codes uses no Math.abs()
 
 public class NestedLoopPattern3 {
 
