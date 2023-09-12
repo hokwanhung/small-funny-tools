@@ -1,4 +1,4 @@
-public class GameOfLife {
+public class gameOfLife {
 
 	public static void main(String[] args) 
     { 
