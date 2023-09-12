@@ -1,4 +1,4 @@
- public static void Main() {
+public static void Main() {
         int number, i, k, count = 1;
         Console.Write("Enter number of rows\n");
         numberOfLine = int.Parse(Console.ReadLine());
