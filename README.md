@@ -51,6 +51,8 @@ Displays a small game of life program by using `0` and `1`. The code simulates t
 
 Prints out Diamond shapes according to the user's input. Tiny little program, but brings much joy when I started.
 
+Note: The program is incomplete as I only capture the core part of the program.
+
 `java` `school`
 
 
