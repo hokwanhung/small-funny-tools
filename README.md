@@ -1,22 +1,26 @@
-# small_funny_tools
+# small-funny-tools
 
-The repository, `small_funny_tools`, contains many tiny-size programs that performs various functions (many for just improving daily life with automation). The aspects of different (but small) programs are classified as below (shown as tags):
+The repository, `small-funny-tools`, contains many tiny-size programs that performs various functions (many for just improving daily life with automation). The aspects of different (but small) programs are classified as below (shown as tags):
 
-- `component`:  compacted methods or components that can work well in some conditions.
+- `components`:  compacted methods or components that can work well in some conditions.
 - `daily`: structured programs that can handle certain aspects of daily routine.
 - `others`: structured programs that can handle some aspects of certain tasks.
 - `school`: methods/programs that are done as a part of the school work.
 
 ## Table of Content
 
-- [small\_funny\_tools](#small_funny_tools)
+- [small-funny-tools](#small-funny-tools)
   - [Table of Content](#table-of-content)
   - [Installation](#installation)
   - [Usage](#usage)
-    - [NestedLoopPattern](#nestedlooppattern)
-    - [findPrimeFactor](#findprimefactor)
-    - [gameofLife](#gameoflife)
-    - [printOutDiamondWithoutLimitations](#printoutdiamondwithoutlimitations)
+    - [components](#components)
+    - [daily](#daily)
+    - [others](#others)
+    - [school](#school)
+      - [NestedLoopPattern](#nestedlooppattern)
+      - [findPrimeFactor](#findprimefactor)
+      - [gameofLife](#gameoflife)
+      - [printOutDiamondWithoutLimitations](#printoutdiamondwithoutlimitations)
   - [License](#license)
   - [Credits](#credits)
   - [FAQ (Frequently Asked Questions)](#faq-frequently-asked-questions)
@@ -29,25 +33,33 @@ However, many of it contains environment specification documents, such as `requi
 
 ## Usage
 
-### NestedLoopPattern
+### components
+
+### daily
+
+### others
+
+### school
+
+#### NestedLoopPattern
 
 Prints a couple of shapes by simply manipulating different loops.
 
 `java` `school`
 
-### findPrimeFactor
+#### findPrimeFactor
 
 Extract all factors from the smallest to the largest. And as the square of target must be below the `detectInput`, the upper limit is set to the square of `detectInput`.
 
 `java` `school`
 
-### gameofLife
+#### gameofLife
 
 Displays a small game of life program by using `0` and `1`. The code simulates the game for one generation only, but iterations can be done through calling the`nextGeneration` function, and the `M` and `N` values, which represents the no. of rows and columns, can also be changed to represent different size of grids.
 
 `java` `school`
 
-### printOutDiamondWithoutLimitations
+#### printOutDiamondWithoutLimitations
 
 Prints out Diamond shapes according to the user's input. Tiny little program, but brings much joy when I started.
 
