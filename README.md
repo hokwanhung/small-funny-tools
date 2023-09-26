@@ -14,11 +14,15 @@ The repository, `small-funny-tools`, contains many tiny-size programs that perfo
   - [Installation](#installation)
   - [Usage](#usage)
     - [components](#components)
+      - [detectInputType](#detectinputtype)
+      - [htmlConverter](#htmlconverter)
     - [daily](#daily)
     - [others](#others)
     - [school](#school)
+      - [DiamondsWith3Loops](#diamondswith3loops)
+      - [FindPrime](#findprime)
       - [NestedLoopPattern](#nestedlooppattern)
-      - [findPrimeFactor](#findprimefactor)
+      - [FarmerWolfGoatCabbageProblem](#farmerwolfgoatcabbageproblem)
       - [gameofLife](#gameoflife)
       - [printOutDiamondWithoutLimitations](#printoutdiamondwithoutlimitations)
   - [License](#license)
@@ -35,33 +39,57 @@ However, many of it contains environment specification documents, such as `requi
 
 ### components
 
+#### detectInputType
+
+Detect whether the `Integer` is positive, zero or negative.
+
+`java` `component`
+
+#### htmlConverter
+
+Ammend `html` elements tags to the target `String`.
+
+`java` `component`
+
 ### daily
 
 ### others
 
 ### school
 
+#### DiamondsWith3Loops
+
+Print out `Diamond` shapes with `no. of lines` to input, but are forced to print any in only 3 loops.
+
+`java` `school`
+
+#### FindPrime
+
+Extract all factors from the smallest to the largest. And as the square of target must be below the `detectInput`, the upper limit is set to the square of `detectInput`. Another version of different code forms are included as well.
+
+`java` `school`
+
 #### NestedLoopPattern
 
-Prints a couple of shapes by simply manipulating different loops.
+Print a couple of shapes by simply manipulating different loops.
 
 `java` `school`
 
-#### findPrimeFactor
+#### FarmerWolfGoatCabbageProblem
 
-Extract all factors from the smallest to the largest. And as the square of target must be below the `detectInput`, the upper limit is set to the square of `detectInput`.
+Play the classic Farmer, Wolf, Goad and Cabbage problem with AI to auto-solve the problem.
 
-`java` `school`
+`python` `school`
 
 #### gameofLife
 
-Displays a small game of life program by using `0` and `1`. The code simulates the game for one generation only, but iterations can be done through calling the`nextGeneration` function, and the `M` and `N` values, which represents the no. of rows and columns, can also be changed to represent different size of grids.
+Display a small game of life program by using `0` and `1`. The code simulates the game for one generation only, but iterations can be done through calling the`nextGeneration` function, and the `M` and `N` values, which represents the no. of rows and columns, can also be changed to represent different size of grids.
 
 `java` `school`
 
 #### printOutDiamondWithoutLimitations
 
-Prints out Diamond shapes according to the user's input. Tiny little program, but brings much joy when I started.
+Print out Diamond shapes according to the user's input. Tiny little program, but brings much joy when I started.
 
 Note: The program is incomplete as I only capture the core part of the program.
 
