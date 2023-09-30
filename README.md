@@ -18,6 +18,7 @@ The repository, `small-funny-tools`, contains many tiny-size programs that perfo
       - [htmlConverter](#htmlconverter)
     - [daily](#daily)
     - [others](#others)
+      - [telpositivity](#telpositivity)
     - [school](#school)
       - [DiamondsWith3Loops](#diamondswith3loops)
       - [FindPrime](#findprime)
@@ -55,6 +56,18 @@ Ammend `html` elements tags to the target `String`.
 
 ### others
 
+#### telpositivity
+
+Search through a list of telephone numbers for regions in `Mainland China(chi)` or `Hong Kong SAR(hkg)`, and return a list of phone numbers with the best positivity(in other words, karma) according to the below Chinese philosophy:
+
+<img src="./markdown-images/chinese-philosophy.jpeg" height="500px">
+
+P.S. The input file must be in `.txt` format, and it currently only supports names with `CHI`, `chi`, `HKG` and `hkg`. 
+
+However, I must warn that the project is just for fun, and does not bear any seriousness and/or corresponding responsibilities if used.
+
+`python` `other`
+
 ### school
 
 #### DiamondsWith3Loops
@@ -83,7 +96,7 @@ Play the classic Farmer, Wolf, Goad and Cabbage problem with AI to auto-solve th
 
 #### gameofLife
 
-Display a small game of life program by using `0` and `1`. The code simulates the game for one generation only, but iterations can be done through calling the`nextGeneration` function, and the `M` and `N` values, which represents the no. of rows and columns, can also be changed to represent different size of grids.
+Display a small game of life program by using `0` and `1`. The code simulates the game for one generation only, but iterations can be done through calling the `nextGeneration` function, and the `M` and `N` values, which represents the no. of rows and columns, can also be changed to represent different size of grids.
 
 `java` `school`
 
