@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class HtmlConverter_v0 {
+public class htmlConverter {
 
 	// Append <li> elements in front and at the end of every input
 	public String toList(String input) {
@@ -16,7 +16,7 @@ public class HtmlConverter_v0 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		HtmlConverter_v0 hcv0 = new HtmlConverter_v0();
+		htmlConverter hcv0 = new htmlConverter();
 		Scanner s = new Scanner(System.in);
 		
 		String cmd = "intoList";

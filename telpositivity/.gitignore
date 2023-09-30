@@ -1,0 +1,6 @@
+# All .idea files related to the settings of local development environment.
+.idea
+/.idea
+
+# All .txt files containing personal phone info.
+*.txt
